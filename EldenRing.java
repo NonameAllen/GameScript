@@ -35,9 +35,9 @@ public class EldenRing {
 		// 释放鼠标左键（按下后必须要释放, 一次点击操作包含了按下和释放）
 		robot.mouseRelease(KeyEvent.BUTTON1_DOWN_MASK);
 
-		// 打开地图
+		
 		for (int i = 0; i < sum; i++) {
-			
+		// 打开地图	
 			robot.keyPress(KeyEvent.VK_G);
 			robot.delay(50);
 			robot.keyRelease(KeyEvent.VK_G);
